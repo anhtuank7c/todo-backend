@@ -1,6 +1,6 @@
 {
   "host": "localhost",
-  "port": 3030,
+  "port": 3330,
   "mongodb": "mongodb://localhost:27017/Todo",
   "public": "../public/",
   "auth": {
