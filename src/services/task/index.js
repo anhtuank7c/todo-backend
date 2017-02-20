@@ -4,14 +4,14 @@ const service = require('feathers-mongoose');
 const task = require('./task-model');
 const hooks = require('./hooks');
 
-module.exports = function() {
+module.exports = function () {
   const app = this;
 
   const options = {
     Model: task,
     paginate: {
-      default: 5,
-      max: 25
+      default: 20,
+      max: 50
     }
   };
 
